@@ -1,0 +1,125 @@
+/*Color, font & variable setup*/
+
+:root {
+  --c-primary: #975af9;
+  --c-secondary: #46a7f8;
+  --c-background: #e6e6e6;
+  --c-dark: #2d2d2d;
+  --c-black: #000000;
+  --font-primary: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-weight: 600;
+}
+
+p{
+    font-family: var(--font-primary);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover{
+    color: var(--c-secondary);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Button css setup*/
+
+.btn{
+    font-weight: 600 !important;
+}
+
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
+
+.btn-light{
+    background-color: var(--c-background);
+}
+
+/*Navbar css setup*/
+
+.navbar{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-dark{
+    background-color: var(--c-black);
+}
+
+/*Hero css setup*/
+
+#Hero{
+    background: url(../img/home/Hero-img.jpg);
+    background-position: top;
+    margin-top: -55px;
+}
+
+.herotext{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+/*About Us css setup*/
+
+.brand-title{
+    font-size: 65px;
+    font-weight: 750;
+    font-family: var(--font-primary);
+}
+
+.brand-p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
+.brand-title-light{
+    font-size: 55px;
+    font-weight: 650;
+    font-family: var(--font-primary);
+    color: var(--c-dark);
+}
+
+.brand-p-2{
+    font-size: 20px;
+    font-family: var(--font-primary);
+}
+
+/*Icon Box css setup*/
+
+.iconbox{
+    background: var(--c-dark);
+    color: var(--c-primary);
+    width: 70px;
+    height: 65px;
+    align-items: center;
+    font-size: 35px;
+    flex: none;
+}
